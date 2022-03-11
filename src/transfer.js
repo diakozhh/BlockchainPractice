@@ -1,9 +1,7 @@
-appId = "GVFlHN1z02Zx5AqQYUS5Wuikt2IGJsfI3dkxDEJv"
-serserURL = "https://obs9gnphkxas.usemoralis.com:2053/server"
-
-Moralis.start({serserURL, appId});
-
-const CONTRACT_ADDRESS = "0x768a53E3cdbdFB7144008639E4063200F701d9a1"
+appId = "NASlOQlZPZZF0xxr3qEn91W0VqLZPruVPX3yLpPx"
+serverUrl = "https://z92nmlsaqipc.usemoralis.com:2053/server"
+Moralis.start({serverUrl, appId});
+const CONTRACT_ADDRESS = "0xc97e4094f2a4ceb6c80580b620bdb2b84607bd53"
 
 let web3;
 
