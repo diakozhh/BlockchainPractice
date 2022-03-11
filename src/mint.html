@@ -14,14 +14,33 @@
   <body>
     <div class="jumbotron jumbotron-fluid">
       <div class="container">
-        <h1 class="display-4">Welcome</h1>
+        <h1 class="display-4">NFT Manager</h1>
       </div>
     </div>
 
     <div class="container">
-        <div class="row" id="app"></div>
+        <div class="row" id="app">
+            <div class="col col-md-12">
+                <div>
+                    <label>Token id</label>
+                    <input id="token_id_input" type="number">
+                </div>
+                <div>
+                    <label>Amount</label>
+                    <input id="amount_input" type="number">
+                </div>
+                <div>
+                    <label>Address</label>
+                    <input id="address_input">
+                </div>
+                <div>
+                    <button class="btn btn-primary" id="submit_mint">Mint</button>
+                </div>
+            </div>
+        </div>
     </div>
 
-    <script type="text/javascript" src="./main.js"></script>
+    <script type="text/javascript" src="./abi.js"></script>
+    <script type="text/javascript" src="./mint.js"></script>
   </body>
 </html>
